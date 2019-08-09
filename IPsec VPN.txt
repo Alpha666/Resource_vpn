@@ -1,0 +1,35 @@
+The IPsec consists of two security services: 
+	- Authentication Header (AH), AH allows authentication of the sender
+	- Encapsulating Security payload (ESP), ESP allows authentication of the sender as well as encryption of the data.
+
+IPsec provides secure communication for network-level peer authentication, data origin authentication, and ensures data integrity, data confidentiality (encryption), and replay protection IPsec consists of two encryption modes: transport and tunnel. 
+	- In transport mode, the data portion or the payload is encrypted. 
+	- In tunnel mode, the entire IP is encrypted.
+
+Protocols used in deploying a VPN: 
+	For deploying the virtual private networks, there are two primary options: IPsec and SSL. 
+	Each protocol has its own unique advantages and are utilized depending on the requirement of the user or the organization’s IT processes.
+
+	IPsec VPN:
+	IPsec-based VPN is the most commonly used deployment solution by most of organizations.
+	IPsec connections are established using VPN client software, which is pre-installed and mainly focuses on the company-managed desktops.
+
+	SSL VPN (web-based):
+	SSL-based VPNs provide remote-access connectivity using a web browser and its native SSL encryption, regardless of the location. SSL doesn’t require any special client software to be pre-installed and is capable of any type of connectivity.
+
+Improving VPN Speed:
+	- VPN Server Location
+	- VPN Server Load
+	- Reliable Provider
+	- Configure Firewall Settings to Optimize VPN Speed 
+	- Processor Speed 
+	- Security Protocol Type
+	- Choose a Stable ISP 
+	- Choose a Wired Connection 
+	- Choose a Proper Device
+
+VPN Components:
+	- VPN client: A computer that initiates a secure remote connection to a VPN server. 
+	- Network access server (NAS): It is also called a media gateway or a remote-access server (RAS). It is responsible for setting up and maintaining each tunnel in a remote-access VPN. Users need to connect to the NAS to use a VPN.
+	- Tunnel terminating device (or VPN server): A computer that accepts VPN connections from VPN clients.
+	- VPN protocol: It includes VPN specific protocols used to manage tunnels and encapsulate private data. It includes the use of PPTP and L2TP protocols along with IPsec.
